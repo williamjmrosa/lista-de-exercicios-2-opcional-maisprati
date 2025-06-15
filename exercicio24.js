@@ -7,11 +7,15 @@ const COLUNA = 8
 let M = []
 let C = []
 
+function sortear(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min)
+}
+
 for(let i = 0; i < LINHA; i++){
     M[i] = []
     C[i] = 0
     for(let j = 0; j < COLUNA; j++){
-        M[i][j] = Math.floor(Math.random() * (10 - (-10) + 1) + (-10))
+        M[i][j] = sortear(-10, 10)
         if(M[i][j] < 0){
             C[i]++
         }
