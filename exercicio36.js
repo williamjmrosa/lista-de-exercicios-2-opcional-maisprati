@@ -7,14 +7,14 @@
 
 const TAMANHO = 13
 const QTD_APOSTADORES = 100
-const NUMERO_MINIMO = 1
-const NUMERO_MAXIMO = 100
+const NUMERO_MINIMO = 0
+const NUMERO_MAXIMO = 1
 
 let gabarito = []
 let apostadores = []
 
 function sortear() {
-    return Math.floor(Math.random() * 100 + 1)
+    return Math.floor(Math.random() * (NUMERO_MAXIMO - NUMERO_MINIMO + 1) + 1)
 }
 
 function gerarVetorAposta(){
