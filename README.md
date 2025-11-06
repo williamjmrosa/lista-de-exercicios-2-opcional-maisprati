@@ -1,6 +1,6 @@
 # Lista de Exercícios 2 - Opcional
 
-Este repositório contém as soluções para a "Lista de Tarefas 2 - Opcional" do curso de Formação Desenvolvedor Full Stack Júnior da /codifica. O projeto consiste em 50 exercícios de lógica de programação, manipulação de vetores, matrizes e objetos, todos resolvidos em JavaScript (Node.js).
+Este repositório contém as soluções para a "Lista de Tarefas 2 - Opcional" do curso de Formação Desenvolvedor Full Stack Júnior da MaisPrati. O projeto consiste em 50 exercícios de lógica de programação, manipulação de vetores, matrizes e objetos, todos resolvidos em JavaScript (Node.js).
 
 ## 🛠️ Tecnologias Utilizadas
 
